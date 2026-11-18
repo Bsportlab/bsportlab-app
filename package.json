@@ -1,5 +1,17 @@
-import React from 'react';
-import { createRoot } from 'react-dom/client';
-import App from './App';
-
-createRoot(document.getElementById('root')).render(<App />);
+{
+  "name": "bsportlab-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-native-web": "^0.19.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}
