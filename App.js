@@ -127,7 +127,7 @@ export default function App() {
         <View style={s.lockCard}>
           {langBar}
           <Image
-            source={require('./assets/logo.png')}
+            source={'./logo.png'}
             style={{ width: 96, height: 96, borderRadius: 16, marginBottom: 14, backgroundColor: '#000' }}
             resizeMode="contain"
           />
