@@ -4,7 +4,7 @@ import { s } from './stile';
 import * as M from './motore';
 
 export default function AdminForm({ cur, setCur, onBack, onSave, loading, msg }) {
-  const [appUrl, setAppUrl] = useState('https://vercel.app');
+  const [appUrl, setAppUrl] = useState('https://bsportlab-app-bqw1-three.vercel.app');
 
   const updPiano = (sec, k, v) =>
     setCur({ ...cur, piano_dati: { ...cur.piano_dati, [sec]: { ...cur.piano_dati[sec], [k]: v } } });
