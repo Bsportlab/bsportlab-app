@@ -156,7 +156,7 @@ export default function App() {
       <SafeAreaView style={s.bg}>
         <View style={s.top}>
           <Image
-            source={require('./assets/logo.png')}
+            source={'./logo.png'}
             style={{ width: 42, height: 42, borderRadius: 8, marginRight: 10, backgroundColor: '#000' }}
             resizeMode="contain"
           />
@@ -222,7 +222,7 @@ export default function App() {
     <SafeAreaView style={s.bg}>
       <View style={s.top}>
         <Image
-          source={require('./assets/logo.png')}
+          source={'./logo.png'}
           style={{ width: 42, height: 42, borderRadius: 8, marginRight: 10, backgroundColor: '#000' }}
           resizeMode="contain"
         />
