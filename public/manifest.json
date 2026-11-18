@@ -1,0 +1,16 @@
+{
+  "short_name": "B-SportLab",
+  "name": "B-SportLab • Nutrizione Sportiva",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#F7FAFC",
+  "theme_color": "#000000",
+  "display": "standalone",
+  "orientation": "portrait"
+}
